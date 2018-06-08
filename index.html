@@ -84,8 +84,8 @@
                 <div class="img-block">
                     <img src="images/Jelle.jpg" alt="Jelle" class="AboutAfbeelding">
                     <div class="overlay">
-                        <div class="textOverlay">Dit is Jelle, de drummer van de Chalkheads. <br/>Ondanks dat je
-                            hem meestal niet ziet zitten zorgt hij voor de basis van elk nummer.
+                        <div class="textOverlay">Dit is Jelle, de drummer van de Chalkheads. <br/>Ondanks dat hij zich
+                            goed kan verstoppen achter zijn drum hoopt hij dat je hem toch ziet zitten.
                         </div>
                     </div>
                 </div>
@@ -133,11 +133,11 @@
 <!-- Afbeelding 2 -->
 <div class="parallax-container valign-wrapper">
     <!--<div class="section no-pad-bot">-->
-        <!--<div class="container">-->
-            <!--<div class="row center">-->
-                <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
-            <!--</div>-->
-        <!--</div>-->
+    <!--<div class="container">-->
+    <!--<div class="row center">-->
+    <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
+    <!--</div>-->
+    <!--</div>-->
     <!--</div>-->
     <div class="parallax">
         <img class="parallax-afbeelding" src="images/background2.jpg" alt="background img 2">
@@ -259,19 +259,50 @@
 </div>
 
 <!-- Contact -->
-<div class="container">
+<div class="container" id="contact">
     <div class="section">
         <div class="row">
             <div class="col s12 center">
                 <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h4>Contact Us</h4>
-                <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque
-                    id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut
-                    ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem
-                    neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu
-                    mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum
-                    ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                <h4>Contacteer ons</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <form id="contactForm" name="setMessage" novalidate>
+                    <div class="row">
+                        <div class="col m6">
+                            <div class="input-field">
+                                <input class="form-control" id="name" type="text" placeholder="Naam *" required
+                                       data-validation-required-message="Gelieve je naam in te voeren."/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="input-field">
+                                <input class="form-control" id="email" type="email" placeholder="E-mail *" required
+                                       data-validation-required-message="Gelieve je e-mail adres in te voeren."/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="input-field">
+                                <input class="form-control" id="phone" type="tel" placeholder="GSM-nummer *" required
+                                       data-validation-required-message="Gelieve je GSM-nummer in te voeren."/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-field col s12">
+                                <textarea class="form-control" id="message" placeholder="Uw bericht *" required
+                                          data-validation-required-message="Gelieve een bericht in te voeren."
+                                          rows="8" cols="50"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button class="btn btn-xl" type="submit">Verzend bericht</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -279,13 +310,14 @@
 
 <!-- Afbeelding 3 -->
 <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-            </div>
-        </div>
-    </div>
+    <!--<div class="section no-pad-bot">-->
+    <!--<div class="container">-->
+    <!--<div class="row center">-->
+    <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material-->
+    <!--Design</h5>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
     <div class="parallax">
         <img class="parallax-afbeelding" src="images/background3.jpg" alt="Unsplashed background img 3">
     </div>
@@ -293,39 +325,8 @@
 
 <!-- Footer -->
 <footer class="page-footer dark-slate-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Company Bio</h5>
-                <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's
-                    our full time job. Any amount would help support and continue development on this project and is
-                    greatly appreciated.</p>
-
-            </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Settings</h5>
-                <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
-                </ul>
-            </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Connect</h5>
-                <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-        </div>
+    <div class="container center copyright">
+        &copy <a href="http://www.bramvb.sinners.be">Bram Van Bergen</a>
     </div>
 </footer>
 
