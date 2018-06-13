@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Crayon;
+    src: url("Black Crayon.ttf");
+}
+
+.crayon {
+    font-family: Crayon;
+}
+
 nav ul a,
 nav .brand-logo {
     color: #444;
@@ -53,34 +62,35 @@ footer.page-footer {
 
 .dark-slate-gray {
     background-color: #284b63;
+!important
 }
 
 .dark-slate-gray-text {
-    color: #284b63;
+    color: #284b63 !important;
 }
 
 .gainsboro {
-    background-color: #D9D9D9;
+    background-color: #D9D9D9 !important;
 }
 
 .gainsboro-text {
-    color: #D9D9D9;
+    color: #D9D9D9 !important;
 }
 
 .myrtle-green {
-    background-color: #3C6E71;
+    background-color: #3C6E71 !important;
 }
 
 .myrtle-green-text {
-    color: #3C6E71;
+    color: #3C6E71 !important;
 }
 
 .jet {
-    background-color: #353535;
+    background-color: #353535 !important;
 }
 
 .jet-text {
-    color: #353535;
+    color: #353535 !important;
 }
 
 .img-block {
@@ -121,18 +131,6 @@ footer.page-footer {
     opacity: 1;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-    margin: 7px;
-}
-
-.parallax-afbeelding {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 textarea {
     background-color: transparent;
     border: none;
@@ -159,8 +157,50 @@ textarea:focus {
 }
 
 footer {
-    padding: 20px;
+    padding: 10px !important;
 }
+
+.rechtsonder {
+    position: absolute;
+    right: 0px;
+    bottom: 57px;
+}
+
+.hoofding > .container {
+    position: relative;
+    height: 300px;
+}
+
+h1 {
+    font-size: 3.9rem;
+}
+
+header, main, footer, body {
+    padding-left: 300px;
+}
+.responsive-nav {
+    visibility: hidden;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer, body {
+        padding-left: 0;
+    }
+    .responsive-nav {
+        visibility: visible;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+.user-view {
+    padding: 0px !important;
+    height: 300px;
+    background-image: url("../images/LogoNavigatieJPG.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 
 /*
 TIMELINE Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co

@@ -3,7 +3,7 @@
 
         $('.sidenav').sidenav();
         $('.parallax').parallax();
-
+        $('.scrollspy').scrollSpy();
         // Typing Intro Init
 
         setTimeout(function () {
