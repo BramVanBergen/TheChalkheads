@@ -44,7 +44,7 @@ p {
 
 @media only screen and (max-width: 600px) {
     #index-banner .section {
-        top: 0;
+        top: 50px;
     }
 }
 
@@ -160,15 +160,19 @@ footer {
     padding: 10px !important;
 }
 
-.rechtsonder {
-    position: absolute;
-    right: 0px;
-    bottom: 57px;
-}
-
 .hoofding > .container {
     position: relative;
     height: 300px;
+    margin: 20px;
+}
+
+.hoofding {
+    padding-top: 50px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
 }
 
 h1 {
@@ -192,6 +196,7 @@ header, main, footer, body {
         visibility: visible;
         width: 100%;
         padding: 10px;
+        z-index: -1;
     }
 }
 
@@ -200,6 +205,19 @@ header, main, footer, body {
     height: 300px;
     background-image: url("../images/LogoNavigatieJPG.jpg");
     background-size: 300px 300px;
+}
+
+.start {
+    min-height: 100vh !important;
+    position: relative;
+}
+
+.valign-wrapperstart {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    bottom:0px;
+    right: 0px;
 }
 
 /*
