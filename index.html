@@ -14,22 +14,9 @@
 </head>
 
 <body>
-<!-- Navigatie -->
-<ul id="slide-out" class="sidenav sidenav-fixed jet">
-    <li>
-        <div class="user-view"></div>
-    </li>
-    <li><a class="sidenav-close gainsboro-text" href="#about">Over</a></li>
-    <li><a class="sidenav-close gainsboro-text" href="#geschiedenis">Geschiedenis</a></li>
-    <li><a class="sidenav-close gainsboro-text" href="#vorige">Vorige optredens</a></li>
-    <li><a class="sidenav-close gainsboro-text" href="#contact">Contact</a></li>
-</ul>
 
 <!-- Banner/Afbeelding 1 -->
 <div id="index-banner" class="parallax-container start">
-    <div class="responsive-nav jet">
-        <a href="#" data-target="slide-out" class="sidenav-trigger white-text"><i class=" material-icons">menu</i></a>
-    </div>
     <div class="valign-wrapper valign-wrapperstart">
         <div class="section hoofding">
             <div class="col center-align">
@@ -44,8 +31,39 @@
     </div>
 </div>
 
+<!-- Navigation -->
+<nav id="nav_bar" class="nav jet">
+    <div class="nav-wrapper jet">
+        <a href="#index-banner" class="brand-logo crayon">The Chalkheads</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class=" material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a class="sidenav-close" href="#about">Over</a></li>
+            <li><a class="sidenav-close" href="#geschiedenis">Geschiedenis</a></li>
+            <li><a class="sidenav-close" href="#vorige">Vorige optredens</a></li>
+            <li><a class="sidenav-close" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Sidebar navigation -->
+<ul id="slide-out" class="sidenav jet">
+    <li>
+        <div class="user-view"></div>
+    </li>
+    <li><a class="sidenav-close gainsboro-text" href="#about">Over</a></li>
+    <li><a class="sidenav-close gainsboro-text" href="#geschiedenis">Geschiedenis</a></li>
+    <li><a class="sidenav-close gainsboro-text" href="#vorige">Vorige optredens</a></li>
+    <li><a class="sidenav-close gainsboro-text" href="#contact">Contact</a></li>
+</ul>
+
+<div class="info-bar">
+
+</div>
+
+<header class="page-head"></header>
+
 <!-- Icon Section -->
-<div class="container scrollspy" id="about">
+<div class="container scrollspy padding" id="about">
     <div class="section">
         <div class="row">
             <div class="center col s12 m8 l6 offset-l3 offset-m2">
@@ -64,7 +82,7 @@
             <!-- About Jonas -->
             <div class="col s12 m8 offset-m2 l4 center">
                 <div class="img-block">
-                    <img src="images/Jonas.jpg" alt="Jonas" class="AboutAfbeelding">
+                    <img src="images/1.%20Jonas.jpg" alt="Jonas" class="AboutAfbeelding">
                     <div class="overlay">
                         <div class="textOverlay">Dit is Jonas, de frontman van de Chalkheads. <br/>Hij speelt gitaar
                             en verzorgt een deel van de zang.
@@ -76,7 +94,7 @@
             <!-- About Jelle -->
             <div class="col s12 m8 offset-m2 l4 center">
                 <div class="img-block">
-                    <img src="images/Jelle.jpg" alt="Jelle" class="AboutAfbeelding">
+                    <img src="images/1.%20Jelle.jpg" alt="Jelle" class="AboutAfbeelding">
                     <div class="overlay">
                         <div class="textOverlay">Dit is Jelle, de drummer van de Chalkheads. <br/>Ondanks dat hij zich
                             goed kan verstoppen achter zijn drum hoopt hij dat je hem toch ziet zitten.
@@ -88,7 +106,7 @@
             <!-- About Bram -->
             <div class="col s12 m8 offset-m2 l4 center">
                 <div class="img-block">
-                    <img src="images/Bram.jpg" alt="Bram" class="AboutAfbeelding">
+                    <img src="images/1.%20Bram.jpg" alt="Bram" class="AboutAfbeelding">
                     <div class="overlay">
                         <div class="textOverlay">Dit is Bram, de bassist van de Chalkheads. <br/>Hij zorgt ervoor
                             dat ook de lage tonen van onze nummers luid en duidelijk hoorbaar zijn.
@@ -100,7 +118,7 @@
             <!-- About Arne -->
             <div class="col s12 m8 offset-m2 l4 offset-l2 center">
                 <div class="img-block">
-                    <img src="images/Arne.jpg" alt="Arne" class="AboutAfbeelding">
+                    <img src="images/1.%20Arne.jpg" alt="Arne" class="AboutAfbeelding">
                     <div class="overlay">
                         <div class="textOverlay">Dit is Arne, de gitarist van de Chalkheads. <br/>Voor vette
                             solo's en het betere gitaarwerk moet je bij hem zijn.
@@ -112,7 +130,7 @@
             <!-- About Lotte -->
             <div class="col s12 m8 offset-m2 l4 center">
                 <div class="img-block">
-                    <img src="images/Jelle.jpg" alt="Bram" class="AboutAfbeelding">
+                    <img src="images/1.%20Lotte.jpg" alt="Lotte" class="AboutAfbeelding">
                     <div class="overlay">
                         <div class="textOverlay">Dit is Lotte, de zangeres van de Chalkheads. <br/>Met haar stem zorgt
                             ze ervoor dat de Chalkheads een breder gamma aan nummers aankunnen.
@@ -134,7 +152,7 @@
     <!--</div>-->
     <!--</div>-->
     <div class="parallax">
-        <img class="parallax-afbeelding" src="images/background2.jpg" alt="background img 2">
+        <img class="parallax-afbeelding parallax-container" src="images/2.1.jpg" alt="background img 2">
     </div>
 </div>
 
@@ -314,7 +332,7 @@
     <!--</div>-->
     <!--</div>-->
     <div class="parallax">
-        <img class="parallax-afbeelding" src="images/background3.jpg" alt="Unsplashed background img 3">
+        <img class="parallax-afbeelding" src="images/2.2.jpg" alt="background img 3">
     </div>
 </div>
 
@@ -331,5 +349,6 @@
 <script src="js/init.js"></script>
 <script src="js/typewriter.js"></script>
 <script src="js/timeline.js"></script>
+<script src="js/FixedHeader.js"></script>
 </body>
 </html>

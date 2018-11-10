@@ -9,7 +9,8 @@
 
 nav ul a,
 nav .brand-logo {
-    color: #444;
+    color: gainsboro;
+    padding-left: 50px;
 }
 
 p {
@@ -179,18 +180,11 @@ h1 {
     font-size: 3.9rem;
 }
 
-header, main, footer, body {
-    padding-left: 300px;
-}
-
 .responsive-nav {
     visibility: hidden;
 }
 
 @media only screen and (max-width: 992px) {
-    header, main, footer, body {
-        padding-left: 0;
-    }
 
     .responsive-nav {
         visibility: visible;
@@ -214,10 +208,44 @@ header, main, footer, body {
 
 .valign-wrapperstart {
     position: absolute;
-    top:0px;
+    top: 0px;
     left: 0px;
-    bottom:0px;
+    bottom: 0px;
     right: 0px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .nav-wrapper {
+    padding-top: 60px;
+}
+
+.nav-wrapper {
+    display: block;
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+}
+
+.logo_navbar {
+    max-height: 50px;
+}
+
+.padding {
+    margin-top: 70px;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        font-size: 1.5rem !important;
+        padding: 0px;
+    }
 }
 
 /*
@@ -411,14 +439,6 @@ TIMELINE Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co
 .cd-timeline__content h2 {
     color: #303e49;
 }
-
-/*
-.cd-timeline__content p,
-.cd-timeline__read-more,
-.cd-timeline__date {
-    font-size: 1.3rem;
-}
-*/
 
 .cd-timeline__content p {
     margin: 1em 0;
