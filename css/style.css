@@ -333,13 +333,9 @@ TIMELINE Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co
 }
 
 .cd-timeline__img img {
-    display: block;
-    position: relative;
-    height: 20vh;
-    left: 5%;
-    top: 5%;
-    margin-left: -12px;
-    margin-top: -12px;
+    height: 40px;
+    width: 40px;
+    align-self: center;
 }
 
 .cd-timeline__img.cd-timeline__img--picture {
@@ -364,6 +360,11 @@ TIMELINE Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
         overflow: hidden;
+    }
+
+    .cd-timeline__img img {
+        width: 160px;
+        height: 160px;
     }
 
     .cd-timeline__img.cd-timeline__img--bounce-in {
