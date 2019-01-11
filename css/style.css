@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 @font-face {
     font-family: Crayon;
     src: url("Black Crayon.ttf");
@@ -17,36 +23,16 @@ p {
     line-height: 2rem;
 }
 
-.sidenav-trigger {
-    color: #26a69a;
-}
-
 .parallax-container {
     min-height: 380px;
     line-height: 0;
     height: auto;
     color: rgba(255, 255, 255, .9);
+    margin-left: -1px;
 }
 
 .parallax-container .section {
     width: 100%;
-}
-
-@media only screen and (max-width: 992px) {
-    .parallax-container .section {
-        position: absolute;
-        top: 40%;
-    }
-
-    #index-banner .section {
-        top: 10%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #index-banner .section {
-        top: 50px;
-    }
 }
 
 .icon-block {
@@ -195,10 +181,12 @@ h1 {
 }
 
 .user-view {
-    padding: 0px !important;
-    height: 300px;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 250px;
     background-image: url("../images/LogoNavigatieJPG.jpg");
-    background-size: 300px 300px;
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
 }
 
 .start {
@@ -212,6 +200,10 @@ h1 {
     left: 0px;
     bottom: 0px;
     right: 0px;
+}
+
+.valign-wrapper {
+    height: 100%;
 }
 
 .sticky {
@@ -246,6 +238,10 @@ h1 {
         font-size: 1.5rem !important;
         padding: 0px;
     }
+}
+
+.sidenav {
+    width: 250px !important;
 }
 
 /*
