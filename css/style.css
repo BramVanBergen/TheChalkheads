@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 @font-face {
     font-family: Crayon;
     src: url("Black Crayon.ttf");
@@ -154,7 +153,7 @@ footer {
 }
 
 .hoofding {
-    padding-top: 50px;
+    margin-top: -100px;
 }
 
 .bottom {
@@ -242,6 +241,74 @@ h1 {
 
 .sidenav {
     width: 250px !important;
+}
+
+.fa {
+    padding: auto;
+    padding-top: 10px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.fa-play {
+    background: #bb0000;
+    color: white;
+    width: 70px;
+    height: 50px;
+    font-size: 23px;
+    padding-top: 12px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.fa-instagram {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 44px;
+}
+
+.fa-soundcloud {
+    color: white;
+    background: linear-gradient(orange, orangered);
+    border-radius: 5px;
+}
+
+.fa-twitter {
+    color: white;
+    background: #1da1f2;
+    border-radius: 5px;
+}
+
+.instagram {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 50px;
+    height: 51px;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    margin-bottom: 6px;
 }
 
 /*
