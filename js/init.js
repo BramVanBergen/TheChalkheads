@@ -4,6 +4,7 @@
         $('.parallax').parallax();
         $('.scrollspy').scrollSpy();
         $('.sidenav').sidenav();
+        $('.materialboxed').materialbox();
 
         // Typing Intro Init
         setTimeout(function () {

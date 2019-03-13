@@ -311,6 +311,19 @@ h1 {
     margin-bottom: 6px;
 }
 
+.merchandise {
+    width: 330px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.optredens {
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+}
+
+
 /*
 TIMELINE Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co
 */
@@ -434,6 +447,12 @@ TIMELINE Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co
         visibility: visible;
         -webkit-animation: cd-bounce-1 0.6s;
         animation: cd-bounce-1 0.6s;
+    }
+
+    .merchandise {
+        width: 100%;
+        height: auto;
+        padding: 0px;
     }
 }
 
